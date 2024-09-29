@@ -4,14 +4,14 @@ import Logo from '../images/logo_wommate.png'
 
 function header() {
     return(
-        <header className="flex flex-row justify-between w-full bg-slate-50 bg-opacity-30">
+        <header className="flex flex-row justify-between w-full bg-white bg-opacity-90">
             <img src={Logo} className="w-1/12 h-26 mx-4 my-0 p-0 " />
             <nav className="flex flex-row gap-4 text-lg my-4 p-4">
-                <a href="#" className="text-gray-600 duration-500  font-thin hover:text-fuchsia-800 hover:font-normal">Accueil</a>
-                <a href="#" className="text-gray-600 duration-500  font-thin hover:text-fuchsia-800 hover:font-normal">Partenaires</a>
-                <a href="#" className="text-gray-600 duration-500  font-thin hover:text-fuchsia-800 hover:font-normal">A propos</a>
-                <a href="#" className="text-gray-600 duration-500  font-thin hover:text-fuchsia-800 hover:font-normal">Services</a>
-                <a href="#" className="text-gray-600 duration-500  font-thin hover:text-fuchsia-800 hover:font-normal">Contact</a>
+                <a href="#accueil" className="text-gray-600 duration-500  font-normal hover:text-fuchsia-800">Accueil</a>
+                <a href="#partenaires" className="text-gray-600 duration-500  font-normal hover:text-fuchsia-800">Partenaires</a>
+                <a href="#apropos" className="text-gray-600 duration-500  font-normal hover:text-fuchsia-800">A propos</a>
+                <a href="#services" className="text-gray-600 duration-500  font-normal hover:text-fuchsia-800">Services</a>
+                <a href="#contact" className="text-gray-600 duration-500  font-normal hover:text-fuchsia-800">Contact</a>
             </nav>
             <div className="flex flex-row gap-6 text-blue-800 my-6 mx-8 text-left ">
                 <a href="https://facebook.com" className="m-0 flex justify-end duration-500 hover:text-fuchsia-800 hover:rotate-12">
