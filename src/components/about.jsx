@@ -19,17 +19,17 @@ function about() {
             <div className="flex flex-col gap-5 my-6">
                 <h4 className="text-xl text-fuchsia-800 text-center font-semibold" data-aos="zoom-in-up" data-aos-duration="500">Notre équipe</h4>
                 <div className="flex flex-row justify-between">
-                    <div className="flex flex-col m-6 justify-between" data-aos="fade-right">
+                    <div className="flex flex-col m-6 justify-between" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom">
                         <img src={Oumar} className="w-24 mx-auto rounded-full" alt="Oumar  DIAGNE" />
                         <p className="font-semibold text-base text-center">Oumar DIAGNE</p>
                         <p className="text-sm text-center text-indigo-900">Développeur web IOT, ingénieur SI</p>
                     </div>
-                    <div className="flex flex-col m-6" data-aos="fade-left">
+                    <div className="flex flex-col m-6" data-aos="fade-left" data-aos-anchor-placement="bottom-bottom">
                         <img src={Maimouna} className="w-24 h-24 object-cover mx-auto rounded-full" alt="Maimouna DIALLO" />
                         <p className="font-semibold text-base text-center">Maimouna DIALLO</p>
                         <p className="text-sm text-center text-indigo-900">Développeur web, coach formatrice</p>
                     </div>
-                    <div className="flex flex-col m-6 justify-center" data-aos="fade-up">
+                    <div className="flex flex-col m-6 justify-center" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
                         <img src={Libscode} className="w-24 h-24 object-cover mx-auto rounded-full" alt="Libasse THIAM" />
                         <p className="font-semibold text-base text-center">Libasse THIAM</p>
                         <p className="text-sm text-center text-indigo-900">Développeur web, ingénieur SI</p>

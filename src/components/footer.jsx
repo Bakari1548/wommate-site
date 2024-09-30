@@ -4,7 +4,7 @@ import Logo from '../images/logo_wommate.png'
 const Footer = () => {
     return (
         <div>
-            <div className='bg-gray-50' data-aos="fade-up" data-aos-duration="1000">
+            <div className='bg-gray-50' data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000">
                 <div className='flex flex-row gap-4 px-12 py-20 ml-4'>
                     <div className='flex flex-col mx-18 gap-4 p-4'>
                         <img src={Logo} className='w-1/3 h-1/2 object-cover' alt="Wommate" />
