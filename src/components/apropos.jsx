@@ -3,7 +3,7 @@ import ImgApropos from '../images/img_apropos.png'
 
 function apropos(){
     return(
-        <div className="my-24 w-full flex flex-col gap-10 px-8 py-0">
+        <div className="my-24 w-full flex flex-col gap-16 px-8">
             <h1 className="text-3xl text-indigo-900 text-center font-semibold" id="apropos" data-aos="zoom-in-up">A propos</h1>
             <div className="flex flex-row w-full gap-10">
                 <div className="flex flex-col gap-10 ml-6 mt-24" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">

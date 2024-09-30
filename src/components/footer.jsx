@@ -4,7 +4,7 @@ import Logo from '../images/logo_wommate.png'
 const Footer = () => {
     return (
         <div>
-            <div className='bg-gray-50'>
+            <div className='bg-gray-50' data-aos="fade-up" data-aos-duration="1000">
                 <div className='flex flex-row gap-4 px-12 py-20 ml-4'>
                     <div className='flex flex-col mx-18 gap-4 p-4'>
                         <img src={Logo} className='w-1/3 h-1/2 object-cover' alt="Wommate" />
@@ -18,7 +18,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className='flex flex-col gap-6'>
-                        <h3 className='text-lg'>OFFRES</h3>
+                        <h3 className='text-lg font-semibold text-fuchsia-600'>OFFRES</h3>
                         <ul className='flex flex-col gap-4'>
                             <li>Porpositions de solutions numérique pour entreprise</li>
                             <li>Formation personnalisées selon vos beosins</li>
@@ -28,7 +28,7 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className='flex flex-col gap-6'>
-                        <h3 className='text-lg'>CONTACTS</h3>
+                        <h3 className='text-lg font-semibold text-fuchsia-600'>CONTACTS</h3>
                         <ul className='flex flex-col gap-6'>
                             <li>wommateTech@example.com</li>
                             <li>+221 77 628 96 74</li>
@@ -36,15 +36,15 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className='flex flex-col gap-6 mx-6 pr-20'>
-                        <h3 className='text-lg'>RESEAUX</h3>
+                        <h3 className='text-lg font-semibold text-fuchsia-600'>RESEAUX</h3>
                         <div className="flex flex-row gap-4 text-fuchsia-600 text-left ">
-                            <a href="https://facebook.com" className="m-0 flex justify-end duration-500 hover:text-blue-800 hover:rotate-12">
+                            <a href="https://www.facebook.com/profile.php?id=100095123988642" target='_blank' className="m-0 flex justify-end duration-500 hover:text-blue-800 hover:rotate-12">
                                 <i className="bi bi-facebook text-3xl"></i>
                             </a>
-                            <a href="https://www.instagram.com" className="m-0 flex justify-end duration-500 hover:text-blue-800 hover:rotate-12">
+                            <a href="https://www.facebook.com/profile.php?id=100095123988642" target='_blank' className="m-0 flex justify-end duration-500 hover:text-blue-800 hover:rotate-12">
                                 <i className="bi bi-instagram text-3xl"></i>
                             </a>
-                            <a href="https://linkedin.com" className="m-0 flex justify-end duration-500 hover:text-blue-800 hover:rotate-12">
+                            <a href="https://www.linkedin.com/company/wommate/?viewAsMember=true" target='_blank' className="m-0 flex justify-end duration-500 hover:text-blue-800 hover:rotate-12">
                                 <i className="bi bi-linkedin text-3xl"></i>
                             </a>
                         </div>

@@ -7,7 +7,7 @@ import IconLocalisation from '../images/icone_localisation.png'
 const Contact = () => {
     return (
         <div className='flex flex-col gap-16 my-20'>
-            <h1 className="text-3xl text-indigo-900 text-center font-semibold aos-init aos-animate" id="contact" data-aos="zoom-in-down">Contact</h1>
+            <h1 className="text-3xl text-indigo-900 text-center font-semibold" id="contact" data-aos="zoom-in-down">Contact</h1>
                 <div className='flex flex-row gap-20 mx-32' data-aos="fade-up">
                     <div className='flex flex-col w-1/2 my-6 gap-5'>
                         <h3 className='text-2xl text-fuchsia-600 font-semibold'>Contactez-nous</h3>

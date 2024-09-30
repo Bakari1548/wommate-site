@@ -3,7 +3,7 @@ import ImgHero from '../images/heros_img.png'
 
 function hero() {
     return(
-        <div className="bg-indigo-950 flex flex-row w-full gap-10 px-14 py-10 z-40 " id="accueil">
+        <div className="bg-indigo-950 flex flex-row w-full gap-10 px-14 py-10 z-40">
             <div className="flex flex-col gap-4">
               <h1 className="text-white text-6xl font-normal">Assure ton <br />
                <span className="text-fuchsia-600 font-bold">devenir </span>professionelle</h1>

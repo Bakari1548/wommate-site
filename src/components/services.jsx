@@ -9,7 +9,7 @@ import IconePuzzle from '../images/icone_puzzle.png'
 const services = () => {
     return (
         <div>
-            <h1 className="text-3xl text-indigo-900 text-center mb-16 font-semibold aos-init aos-animate" data-aos="zoom-in-up" id="services">Nos Services</h1>
+            <h1 className="text-3xl text-indigo-900 text-center mb-16 font-semibold" data-aos="zoom-in-up" id="services">Nos Services</h1>
             <div className="grid grid-cols-2 grid-rows-2 mx-10">
                 <div className="mx-10 border border-gray-300 my-4 p-8 rounded-lg flex flex-col gap-8 hover:shadow-lg" data-aos="fade-up">
                     <div className="flex flex-row gap-4 ">
@@ -28,7 +28,7 @@ const services = () => {
                         et prendre le contrôle de votre avenir professionnel dès maintenant !
                     </p>
                 </div>
-                <div className="mx-10 border border-gray-300 my-4 p-8 rounded-lg flex flex-col gap-8  hover:shadow-lg" data-aos="fade-down">
+                <div className="mx-10 border border-gray-300 my-4 p-8 rounded-lg flex flex-col gap-8 hover:shadow-lg" data-aos="fade-down">
                     <div className="flex flex-row gap-4 ">
                         <img src={IconeEtoile} className="w-14 h-14" alt="Formation" />
                         <h3 className="font-bold text-xl text-fuchsia-600 mt-4">Accompagnement jeunes porteurs de projets</h3>
@@ -47,7 +47,7 @@ const services = () => {
                         professionnel dès maintenant !
                     </p>
                 </div>
-                <div className="mx-10 border border-gray-300 my-4 p-8 rounded-lg flex flex-col gap-8  hover:shadow-lg" data-aos="fade-left">
+                <div className="mx-10 border border-gray-300 my-4 p-8 rounded-lg flex flex-col gap-8 hover:shadow-lg" data-aos="fade-left">
                     <div className="flex flex-row gap-4 ">
                         <img src={IconePuzzle} className="w-14 h-14" alt="Formation" />
                         <h3 className="font-bold text-xl text-fuchsia-600 mt-4">Accompagnement des entreprises</h3>
@@ -66,7 +66,7 @@ const services = () => {
                         maintenant !
                     </p>
                 </div>
-                <div className="mx-10 border border-gray-300 my-4 p-8 rounded-lg flex flex-col gap-8  hover:shadow-lg" data-aos="fade-right">
+                <div className="mx-10 border border-gray-300 my-4 p-8 rounded-lg flex flex-col gap-8 hover:shadow-lg" data-aos="fade-right">
                     <div className="flex flex-row gap-4 ">
                         <img src={IconeCafe} className="w-14 h-14" alt="Formation" />
                         <h3 className="font-bold text-xl text-fuchsia-600 mt-4">Formation courte durée</h3>
