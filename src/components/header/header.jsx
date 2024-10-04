@@ -1,10 +1,14 @@
 import React from "react"
-import Logo from '../images/logo_wommate.png'
-import { logDOM } from "@testing-library/react";
+import Logo from '../../assets/images/logo_wommate.png'
 
 
 function header() {
-   
+    const ssc =() => {
+
+    }
+   function eaddc() {
+
+   }
     return(
         <header className="flex flex-row justify-between w-full sticky top-0 bg-white bg-opacity-90 z-50">
             <a href="#" className="ml-6 p-0 cursor-pointer">

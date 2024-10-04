@@ -1,8 +1,8 @@
 import React from "react";
-import IconeOk from '../images/icone_ok.png'
-import IconeCafe from '../images/icone_cafe.png'
-import IconeEtoile from '../images/icone_etoile.png'
-import IconePuzzle from '../images/icone_puzzle.png'
+import IconeOk from '../../assets/images/icone_ok.png'
+import IconeCafe from '../../assets/images/icone_cafe.png'
+import IconeEtoile from '../../assets/images/icone_etoile.png'
+import IconePuzzle from '../../assets/images/icone_puzzle.png'
 
 
 

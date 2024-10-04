@@ -1,12 +1,12 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import 'swiper/swiper-bundle.css';
-import Img_1 from '../images/imgPartenaire1.png'
-import Img_3 from '../images/imgPartenaire3.jpg'
-import Img_4 from '../images/imgPartenaire4.jpg'
-import Img_5 from '../images/caroussel1.jpg'
-import Img_6 from '../images/caroussel2.jpg'
-import Img_7 from '../images/caroussel3.jpg'
+import Img_1 from '../assets/images/imgPartenaire1.png'
+import Img_3 from '../assets/images/imgPartenaire3.jpg'
+import Img_4 from '../assets/images/imgPartenaire4.jpg'
+import Img_5 from '../assets/images/caroussel1.jpg'
+import Img_6 from '../assets/images/caroussel2.jpg'
+import Img_7 from '../assets/images/caroussel3.jpg'
 
 //  Pour utiliser la pagination, les boutons etc...
 import { Navigation, Pagination } from 'swiper/modules';

@@ -1,6 +1,6 @@
 import React from 'react';
-import ImgMarketng from '../images/marketing.png'
-import ImgDevWeb from '../images/dev_web.png'
+import ImgMarketng from '../../assets/images/marketing.png'
+import ImgDevWeb from '../../assets/images/dev_web.png'
 
 
 const Formations = () => {

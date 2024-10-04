@@ -1,5 +1,5 @@
 import React from "react";
-import ImgApropos from '../images/img_apropos.png'
+import ImgApropos from '../../assets/images/img_apropos.png'
 
 function apropos(){
     return(

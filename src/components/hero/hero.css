@@ -1,0 +1,11 @@
+@media screen and (max-width: 780px) {
+    .container{
+        margin: 0;        
+        display: flex;
+        gap: 0;
+        padding: 90px;
+    }
+    .img-hero{
+        z-index: 10;
+    }
+}

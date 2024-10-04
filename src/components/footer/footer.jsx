@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../images/logo_wommate.png'
+import Logo from '../../assets/images/logo_wommate.png'
 
 const Footer = () => {
     return (

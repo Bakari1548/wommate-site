@@ -1,7 +1,7 @@
 import React from "react";
-import Oumar from '../images/oumar.jpg'
-import Maimouna from '../images/maimouna.png'
-import Libscode from '../images/libscode.png'
+import Oumar from '../../assets/images/oumar.jpg'
+import Maimouna from '../../assets/images/maimouna.png'
+import Libscode from '../../assets/images/libscode.png'
 
 
 function about() {

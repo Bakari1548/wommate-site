@@ -1,7 +1,6 @@
 import React from "react";
-import Carroussel from "./carroussel";
-// import ImgPartenaire1 from '../images/imgPartenaire1.png'
-// import ImgPartenaire5 from '../images/imgPartenaire5.png'
+import Carroussel from "../carroussel";
+
 
 function partenaires() {
     return(

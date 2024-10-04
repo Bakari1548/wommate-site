@@ -1,7 +1,7 @@
 import React from 'react';
-import IconPhone from '../images/icone_phone.png'
-import IconMessage from '../images/icone_message.png'
-import IconLocalisation from '../images/icone_localisation.png'
+import IconPhone from '../../assets/images/icone_phone.png'
+import IconMessage from '../../assets/images/icone_message.png'
+import IconLocalisation from '../../assets/images/icone_localisation.png'
 
 
 const Contact = () => {
